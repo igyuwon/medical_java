@@ -8,9 +8,32 @@ public class C0617_08 {
 //        System.out.println("문자를 입력하세요.");
 //        String str = scan.nextLine();
 //        System.out.println("입력한 문자열의 길이 : "+str.length());
-        System.out.println("숫자를 입력하세요.");
-        int x = scan.nextInt();
-        int absX = x>=0?x:-x;
-        System.out.println(absX);
+
+//        System.out.println("숫자를 입력하세요.");
+//        int x = scan.nextInt();
+//        int absX = x>=0?x:-x;
+//        System.out.println(absX);
+
+//        // 숫자를 입력받아, 양수, 음수, 0 입니다. 구현
+//        // 0은 양수로 출력
+//        System.out.println("숫자를 입력하세요.");
+//        int x = scan.nextInt();
+//        String str = x>0?"양수입니다":(x==0?"0입니다.":"음수입니다.");
+//        System.out.println(str);
+
+        int a = 10;
+        if(a>0){
+            System.out.println("양수입니다.");
+        }else if(a==0){
+            System.out.println("0입니다");
+        }else{
+            System.out.println("음수입니다.");
+        }
+        if(a>0)
+            System.out.println("양수입니다.");
+        else if (a==0)
+            System.out.println("0입니다.");
+        else
+            System.out.println("음수입니다.");
     }
 }
